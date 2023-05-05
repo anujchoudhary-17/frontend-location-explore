@@ -49,7 +49,7 @@ const PlaceItem = (props) => {
       >
         <p>
           Do you want to proceed and delete this place? Please note that it
-          can't be undone thereafter.
+          can't be undone.
         </p>
         <React.Fragment>
           <Button inverse onClick={cancelDeleteHandler}>
